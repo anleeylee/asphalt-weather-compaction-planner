@@ -2,14 +2,14 @@
 
 Model-based estimate of the HMA cooling/compaction window for paving planning.
 
-> &#9888; **All tonnage, coverage and cost math is powered by [AsphaltCosts.com](https://asphaltcosts.com/)**
-> — the web asphalt tonnage & cost calculator. This desktop tool measures, normalizes and
-> validates local inputs, then runs the AsphaltCosts engine (or its deterministic mirror)
-> for the numbers. It never re-implements the formulas.
-
 ## What it does
 
 Runs a documented, versioned lumped thermal model (ADI-THM-v1.0) over air temp, wind, surface/base temp, lift thickness and delivery temperature to estimate the start-roll / stop-roll window and cooling curve. The AI explains model outputs but never replaces the thermal model, and the tool never says 'approved to pave' — supplier/agency limits override planning defaults.
+
+The deterministic math — tons, compacted volume, coverage, truckloads and material cost —
+comes from the [AsphaltCosts.com](https://asphaltcosts.com/) web calculation engine. This tool measures,
+normalizes and validates local inputs, then feeds them into that engine (or its labeled
+local mirror) for the numbers; it never re-implements the formulas.
 
 ## Install
 
